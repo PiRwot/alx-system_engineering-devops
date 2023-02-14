@@ -1,2 +1,2 @@
 #!/bin/bash
-Ping -c 1 | cut -d “” 11 | tr -d “:”
+sort | cut -f1 | uniq -c | sort -nr | head -n 11 | cut --d=" " -f6
