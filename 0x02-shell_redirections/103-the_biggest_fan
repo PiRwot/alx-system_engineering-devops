@@ -1,0 +1,2 @@
+#!/bin/bash
+Ping -c 1 | cut -d “” 11 | tr -d “:”
